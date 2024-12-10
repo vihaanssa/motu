@@ -1,55 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-}
 
-.container {
-    background-color: white;
-    padding: 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+        body {
+            background-color: #fdfbf7;
+            font-family: Arial, sans-serif;
+        }
 
-header {
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 1rem;
-}
+        .nav-link {
+            color: #1475CA !important;
+            text-decoration: none;
+            padding: 0 8px !important;
+            display: inline-block;
+        }
+        .nav-link:not(:last-child)::after {
+            content: '|';
+            margin-left: 16px;
+        }
 
-nav a {
-    color: #007bff;
-    text-decoration: none;
-}
+        .main-title {
+            color: #1475CA;
+            font-family: 'Instrument Serif', serif;
+            font-size: 5rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
 
-nav a:hover {
-    text-decoration: underline;
-}
+        .subtitle {
+            text-align: center;
+            color: #1475CA;
+            margin-bottom: 4rem;
+            font-family: 'Instrument Serif', serif;
+        }
 
-.skills {
-    max-width: 600px;
-    margin: 0 auto;
-}
+        .section-link {
+            color: #1475CA;
+            text-decoration: none;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #1475CA;
+            display: block;
+            margin: 1.5rem 0;
+            padding-bottom: 0.5rem;
+            width: 100%;
+        }
 
-.skill-item {
-    margin-bottom: 1.5rem;
-}
+        .header-name {
+            color: #1475CA;
+            font-weight: normal;
+            font-family: 'Instrument Sans', sans-serif;
+            font-size: 1.2rem;
+        }
 
-.skill-item h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
+        .header-title {
+            color: #1475CA;
+            font-size: 0.8rem;
+            font-family: 'Instrument Sans', sans-serif;
+        }
 
-.skill-item hr {
-    border-top: 2px solid #007bff;
-    margin-top: 0;
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav {
-        margin-top: 1rem;
-    }
-}
-
+        .header-padding {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
